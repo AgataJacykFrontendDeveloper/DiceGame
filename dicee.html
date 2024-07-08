@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Dicee</title>
+  <!-- Style -->
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- FAVICON -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Oswald:wght@300&display=swap"
+    rel="stylesheet">
+  
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/e31afff6bf.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+    integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous">
+  </script>
+</head>
+
+<body><canvas id="confeti"></canvas>
+
+  <div class="container">
+    <h1 class="banner">Roll the dice</h1>
+    <div class="dice">
+      <h3>Player 1</h3>
+      <img class="img1" src="images/dice6.png">
+    </div>
+    <div class="dice">
+      <h3>Player 2</h3>
+      <img class="img2" src="images/dice6.png">
+    </div>
+    <div class="button_box">
+    <button onClick="roll()" class="button-64" role="button"><span class="text"><h2>Roll</h2></span></button>
+</div>
+  </div>
+  <footer>
+    <div class="bottom_container">
+        <p><i class="far fa-copyright"></i> Copyrights Agata Jacyk</p>
+    </div>
+</footer>
+
+<script src="index.js"></script>
+</body>
+
+</html>

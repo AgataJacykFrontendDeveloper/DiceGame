@@ -1,0 +1,152 @@
+.container {
+  background-color: #2329315b;
+  width: 70%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+  z-index: 2;
+  padding-top: 3%;
+  padding-bottom: 10%;
+  border-radius: 8px;
+  box-shadow: #4ecca252 0 15px 30px -5px;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+body {
+  background-color: #000000;
+}
+
+.button-64 {
+  align-items: center;
+  background-image: linear-gradient(144deg, #26b6d1, #36bebd 50%, #4ecca3);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: #4ecca252 0 15px 30px -5px;
+  box-sizing: border-box;
+  display: flex;
+  height: 3.5rem;
+  justify-content: center;
+  width: 100%;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-64:active,
+.button-64:hover {
+  outline: 0;
+}
+
+.button-64 span {
+  background-color: #232931;
+  border-radius: 6px;
+  height: 3rem;
+  width: 100%;
+  transition: 300ms;
+}
+
+.button-64:hover span {
+  background: none;
+}
+
+.bottom_container {
+  background-color: #12151ac9;
+    border-top: 2px solid #232931bb;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+canvas {
+  opacity: 50%;
+  left: 0%;
+  top: 0%;
+  position: absolute;
+  z-index: -1;
+}
+
+h1, h2 {
+  font-family: 'Lobster Two', cursive;
+}
+
+h1 {
+  color: #4ECCA3;
+  font-size: 4rem;
+  text-shadow: 5px 0 #12151a;
+}
+
+h2 {
+  color: #4ECCA3;
+  font-size: 2rem;
+  text-shadow: 2px 0 #12151a;
+  position: relative;
+  bottom: 50%;
+  letter-spacing: 2rem;
+}
+
+h2:hover {
+  color: #232931bb;
+}
+
+
+h3 {
+  font-size: 2rem;
+  color: #4ECCA3;
+  text-shadow: 5px 0 #232931;
+  font-family: 'Oswald', sans-serif;
+}
+
+p{
+  font-size: 0.7rem;
+  color: #4ecca252;
+}
+
+.button_box { 
+  width: 50%;
+  text-align: center;
+  margin-left: 25%;
+}
+
+.banner {
+  position: absolute;
+  margin: 0% 10%;
+  width: 600px;
+  height: 70px;
+  border: 1px solid #292d58;
+  background: #232931;
+  border-radius: 3px;
+  box-shadow: #4ecca252 0 8px 15px -5px;
+  text-align: center;
+}
+
+.banner::after {
+  content: '';
+  position: absolute;
+  z-index: -2;
+  left: -70px;
+  top: 24px;
+  display: block;
+  width: 40px;
+  height: 0px;
+  border: 30px solid #232931;
+  border-right: 20px solid #232931;
+  border-bottom-color: #232931;
+  border-left-color: transparent;
+  transform: rotate(-5deg);
+  left: auto;
+  right: -70px;
+  border-left: 20px solid #1b1f25;
+  border-right: 30px solid transparent;
+  transform: rotate(5deg);
+}
+
+img {
+  width: 40%;
+}
